@@ -1,0 +1,10 @@
+Route + Model + Controller 
+Laravel Eloquent Relationships 
+Domain Driven Design (DDD)
+Score Query 
+Mutator and Accessor 
+Email and notifications 
+Events and Listeners
+Advanced Eloquent 
+Creating Artisan Commands 
+Payments and Cashier 
