@@ -17,8 +17,7 @@
 
 <body>
     <div id="app">
-        <h1>check</h1>
-        <Heading></Heading>
+        <router-view></router-view>
     </div>
    
     <script src="{{asset('js/app.js')}}"></script>
