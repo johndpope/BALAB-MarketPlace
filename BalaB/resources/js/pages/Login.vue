@@ -1,6 +1,5 @@
 <template>
   <div class="text-center">
-    <h1>mylogin broski</h1>
      <funbuttons />
   </div>
 </template>

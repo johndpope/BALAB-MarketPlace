@@ -2,9 +2,11 @@ require("./bootstrap");
 
 window.Vue = require("vue").default;
 import VueRouter from "vue-router";
+
 import Heading from "./pages/Heading.vue";
 import Register from "./pages/Register.vue";
 import Login from "./pages/Login.vue";
+import Vue from "vue";
 
 const routes = [
     { path: "/", component: Heading },
@@ -12,12 +14,12 @@ const routes = [
     { path: "/login", component: Login }
 ];
 const router = new VueRouter({
-    mode:'history',
+    mode: "history",
     routes // short for `routes: routes`
-  })
+});
 
 Vue.use(VueRouter);
 const app = new Vue({
     el: "#app",
-    router,
+    router
 });
