@@ -55,7 +55,7 @@
               </div>
               <div style="color: #777">
                 Already have an account
-                <a href="login.html" class="login-link">Login here</a>
+                <a href="login" class="login-link">Login here</a>
               </div>
             </form>
           </div>
