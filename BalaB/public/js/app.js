@@ -1951,6 +1951,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
@@ -6705,12 +6713,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_css_app_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../css/app.css */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./resources/css/app.css");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_css_auth_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../css/auth.css */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./resources/css/auth.css");
 // Imports
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
-___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_css_app_css__WEBPACK_IMPORTED_MODULE_1__.default);
+___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_css_auth_css__WEBPACK_IMPORTED_MODULE_1__.default);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, "\r\n", ""]);
 // Exports
@@ -6732,12 +6740,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_css_app_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../css/app.css */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./resources/css/app.css");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_css_auth_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../css/auth.css */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./resources/css/auth.css");
 // Imports
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
-___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_css_app_css__WEBPACK_IMPORTED_MODULE_1__.default);
+___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_css_auth_css__WEBPACK_IMPORTED_MODULE_1__.default);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, "\r\n", ""]);
 // Exports
@@ -6759,12 +6767,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_css_app_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../css/app.css */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./resources/css/app.css");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_css_auth_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../css/auth.css */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./resources/css/auth.css");
 // Imports
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
-___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_css_app_css__WEBPACK_IMPORTED_MODULE_1__.default);
+___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_css_auth_css__WEBPACK_IMPORTED_MODULE_1__.default);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, "\r\n", ""]);
 // Exports
@@ -6773,10 +6781,10 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\r\n", ""]);
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./resources/css/app.css":
-/*!*********************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./resources/css/app.css ***!
-  \*********************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./resources/css/auth.css":
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./resources/css/auth.css ***!
+  \**********************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -6790,7 +6798,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".image-container {\r\n    background: url(\"https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFwcHklMjBtYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80\") center no-repeat;\r\n    background-size: cover;\r\n    height: 100vh;\r\n}\r\n\r\n.form-container {\r\n    background-color: #fccc00;\r\n    display: flex;\r\n    justify-content: center;\r\n}\r\n.vi-primary {\r\n    fill: #ffffff;\r\n    font-size: 24px;\r\n}\r\n\r\n.vi-primary,\r\n.vi-accent {\r\n    fill-rule: evenodd;\r\n}\r\n\r\n.vi-accent {\r\n    fill: #ffb400;\r\n}\r\n.form-box {\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    min-height: 100vh;\r\n}\r\n\r\n.form-box h4 {\r\n    font-weight: bold;\r\n    color: #fff;\r\n}\r\n\r\n.form-box .form-input {\r\n    position: relative;\r\n}\r\n\r\n.form-box .form-input input {\r\n    width: 100%;\r\n    height: 40px;\r\n    margin-bottom: 20px;\r\n    border: none;\r\n    border-radius: 5px;\r\n    outline: none;\r\n    background: white;\r\n    padding-left: 45px;\r\n}\r\n\r\n.form-box .form-input span {\r\n    position: absolute;\r\n    top: 8px;\r\n    padding-left: 20px;\r\n    color: #777;\r\n}\r\n\r\n.form-box .form-input input::placeholder {\r\n    padding-left: 0px;\r\n}\r\n\r\n.form-box .form-input input:focus,\r\n.form-box .form-input input:valid {\r\n    border-bottom: 2px solid #48403d;\r\n}\r\n\r\n.form-box input[type=\"checkbox\"]:not(:checked) + label:before {\r\n    background: transparent;\r\n    border: 2px solid #fff;\r\n    width: 15px;\r\n    height: 15px;\r\n}\r\n\r\n.form-box\r\n    .custom-checkbox\r\n    .custom-control-input:checked\r\n    ~ .custom-control-label::before {\r\n    background-color: #48403d;\r\n    border: 0px;\r\n}\r\n\r\n.forget-link,\r\n.register-link,\r\n.login-link {\r\n    color: #fff;\r\n    font-weight: bold;\r\n}\r\n\r\n.forget-link:hover,\r\n.register-link:hover,\r\n.login-link:hover {\r\n    color: #292525;\r\n}\r\n\r\n.form-box button[type=\"submit\"] {\r\n    border: none;\r\n    cursor: pointer;\r\n    width: 150px;\r\n    height: 40px;\r\n    border-right: 5px;\r\n    background-color: #fff;\r\n    color: #000;\r\n    font-weight: bold;\r\n    transition: 0.5s;\r\n}\r\n\r\n.form-box button[type=\"submit\"]:hover {\r\n    box-shadow: 0px 9px 10px -2px rgba(0, 0, 0, 0.55);\r\n    -webkit-box-shadow: 0px 9px 10px -2px rgba(0, 0, 0, 0.55);\r\n    -moz-box-shadow: 0px 9px 10px -2px rgba(0, 0, 0, 0.55);\r\n}\r\n\r\n.form-box .btn-social {\r\n    color: #fff;\r\n    border: 0px;\r\n    display: inline-block;\r\n    margin: 0px;\r\n    margin-right: 10px;\r\n    font-weight: bold;\r\n    margin-bottom: 10px;\r\n}\r\n\r\n.form-box .btn-facebook {\r\n    background: #4866a8;\r\n}\r\n\r\n.form-box .btn-google {\r\n    background: #da3f34;\r\n}\r\n\r\n.form-box .btn-twitter {\r\n    background: #33ccff;\r\n}\r\n\r\n.form-box .btn-facebook:hover {\r\n    background: #3d5785;\r\n    color: #fff;\r\n}\r\n\r\n.form-box .btn-google:hover {\r\n    background: #bf3b31;\r\n    color: #fff;\r\n}\r\n\r\n.form-box .btn-twitter:hover {\r\n    background: #2eb7e5;\r\n    color: #fff;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".image-container {\r\n    background: url(\"https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFwcHklMjBtYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80\")\r\n        center no-repeat;\r\n    background-size: cover;\r\n    height: 100vh;\r\n}\r\n\r\n.form-container {\r\n    background-color: #fccc00;\r\n    display: flex;\r\n    justify-content: center;\r\n}\r\n.vi-primary {\r\n    fill: #ffffff;\r\n    font-size: 24px;\r\n}\r\n\r\n.vi-primary,\r\n.vi-accent {\r\n    fill-rule: evenodd;\r\n}\r\n\r\n.vi-accent {\r\n    fill: #ffb400;\r\n}\r\n.form-box {\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    min-height: 100vh;\r\n}\r\n\r\n.form-box h4 {\r\n    font-weight: bold;\r\n    color: #fff;\r\n}\r\n\r\n.form-box .form-input {\r\n    position: relative;\r\n}\r\n\r\n.form-box .form-input input {\r\n    width: 100%;\r\n    height: 40px;\r\n    margin-bottom: 20px;\r\n    border: none;\r\n    border-radius: 5px;\r\n    outline: none;\r\n    background: white;\r\n    padding-left: 45px;\r\n}\r\n\r\n.form-box .form-input span {\r\n    position: absolute;\r\n    top: 8px;\r\n    padding-left: 20px;\r\n    color: #777;\r\n}\r\n\r\n.form-box .form-input input::placeholder {\r\n    padding-left: 0px;\r\n}\r\n\r\n.form-box .form-input input:focus,\r\n.form-box .form-input input:valid {\r\n    border-bottom: 2px solid #48403d;\r\n}\r\n\r\n.form-box input[type=\"checkbox\"]:not(:checked) + label:before {\r\n    background: transparent;\r\n    border: 2px solid #fff;\r\n    width: 15px;\r\n    height: 15px;\r\n}\r\n\r\n.form-box\r\n    .custom-checkbox\r\n    .custom-control-input:checked\r\n    ~ .custom-control-label::before {\r\n    background-color: #48403d;\r\n    border: 0px;\r\n}\r\n\r\n.forget-link,\r\n.register-link,\r\n.login-link {\r\n    color: #fff;\r\n    font-weight: bold;\r\n}\r\n\r\n.forget-link:hover,\r\n.register-link:hover,\r\n.login-link:hover {\r\n    color: #292525;\r\n}\r\n\r\n.form-box button[type=\"submit\"] {\r\n    border: none;\r\n    cursor: pointer;\r\n    width: 215px;\r\n    height: 45px;\r\n    border-right: 5px;\r\n    background-color: #d00124;\r\n    color: #fff;\r\n    font-weight: bold;\r\n    transition: 0.5s;\r\n    border-radius: 50px;\r\n}\r\n\r\n.form-box button[type=\"submit\"]:hover {\r\n    box-shadow: 0px 9px 10px -2px rgba(0, 0, 0, 0.55);\r\n    -webkit-box-shadow: 0px 9px 10px -2px rgba(0, 0, 0, 0.55);\r\n    -moz-box-shadow: 0px 9px 10px -2px rgba(0, 0, 0, 0.55);\r\n}\r\n\r\n.form-box .btn-social {\r\n    color: #fff;\r\n    border: 0px;\r\n    display: inline-block;\r\n    margin: 0px;\r\n    margin-right: 10px;\r\n    font-weight: bold;\r\n    margin-bottom: 10px;\r\n}\r\n\r\n.form-box .btn-facebook {\r\n    background: #4866a8;\r\n}\r\n\r\n.form-box .btn-google {\r\n    background: #da3f34;\r\n}\r\n\r\n.form-box .btn-twitter {\r\n    background: #33ccff;\r\n}\r\n\r\n.form-box .btn-facebook:hover {\r\n    background: #3d5785;\r\n    color: #fff;\r\n}\r\n\r\n.form-box .btn-google:hover {\r\n    background: #bf3b31;\r\n    color: #fff;\r\n}\r\n\r\n.form-box .btn-twitter:hover {\r\n    background: #2eb7e5;\r\n    color: #fff;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -38707,7 +38715,23 @@ var staticRenderFns = [
         _c("span", [_c("i", { staticClass: "fa fa-user" })]),
         _vm._v(" "),
         _c("input", {
-          attrs: { type: "text", placeholder: "Full Name", required: "" }
+          attrs: { type: "text", placeholder: "FullName", required: "" }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-input" }, [
+        _c("span", [_c("i", { staticClass: "fa fa-user" })]),
+        _vm._v(" "),
+        _c("input", {
+          attrs: { type: "text", placeholder: "NickName", required: "" }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-input" }, [
+        _c("span", [_c("i", { staticClass: "fa fa-envelope" })]),
+        _vm._v(" "),
+        _c("input", {
+          attrs: { type: "number", placeholder: "Age", required: "" }
         })
       ]),
       _vm._v(" "),

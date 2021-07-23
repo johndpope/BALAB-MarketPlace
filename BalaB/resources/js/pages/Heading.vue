@@ -33,7 +33,15 @@
             <form>
               <div class="form-input">
                 <span><i class="fa fa-user"></i></span>
-                <input type="text" placeholder="Full Name" required />
+                <input type="text" placeholder="FullName" required />
+              </div>
+              <div class="form-input">
+                <span><i class="fa fa-user"></i></span>
+                <input type="text" placeholder="NickName" required />
+              </div>
+              <div class="form-input">
+                <span><i class="fa fa-envelope"></i></span>
+                <input type="number" placeholder="Age" required />
               </div>
               <div class="form-input">
                 <span><i class="fa fa-envelope"></i></span>
@@ -90,5 +98,5 @@ export default {
 };
 </script>
 <style>
-@import url("../../css/app.css");
+@import url("../../css/auth.css");
 </style>

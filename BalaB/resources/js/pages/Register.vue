@@ -74,5 +74,5 @@ export default {
 };
 </script>
 <style>
-@import url("../../css/app.css");
+@import url("../../css/auth.css");
 </style>
