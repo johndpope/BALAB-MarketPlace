@@ -11,10 +11,10 @@ import Vue from "vue";
 const routes = [
     { path: "/", component: Heading },
     { path: "/register", component: Register },
-    { path: "/login", component: Login }
+    { path: "balab/login", component: Login }
 ];
 const router = new VueRouter({
-    
+    mode: 'history',
     routes // short for `routes: routes`
 });
 

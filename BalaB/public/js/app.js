@@ -1935,6 +1935,22 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
@@ -2148,10 +2164,11 @@ var routes = [{
   path: "/register",
   component: _pages_Register_vue__WEBPACK_IMPORTED_MODULE_1__.default
 }, {
-  path: "/login",
+  path: "balab/login",
   component: _pages_Login_vue__WEBPACK_IMPORTED_MODULE_2__.default
 }];
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_3__.default({
+  mode: 'history',
   routes: routes // short for `routes: routes`
 
 });
@@ -6769,17 +6786,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _js_pages_imgs_bg_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../js/pages/imgs/bg.jpg */ "./resources/js/pages/imgs/bg.jpg");
 // Imports
 
-
-
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_js_pages_imgs_bg_jpg__WEBPACK_IMPORTED_MODULE_2__.default);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".image-container{\r\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") center no-repeat;\r\n    background-size: cover;\r\n    height: 100vh;\r\n}\r\n\r\n.form-container{\r\n    background-color: #fccc00;\r\n    display: flex;\r\n    justify-content: center;\r\n}\r\n\r\n.form-box{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    min-height: 100vh;\r\n}\r\n\r\n.form-box h4{\r\n    font-weight: bold;\r\n    color: #fff;\r\n}\r\n\r\n.form-box .form-input{\r\n    position: relative;\r\n}\r\n\r\n.form-box .form-input input{\r\n    width: 100%;\r\n    height: 40px;\r\n    margin-bottom: 20px;\r\n    border:none;\r\n    border-radius: 5px;\r\n    outline: none;\r\n    background: white;\r\n    padding-left: 45px;\r\n}\r\n\r\n.form-box .form-input span{\r\n    position: absolute;\r\n    top: 8px;\r\n    padding-left: 20px;\r\n    color: #777;\r\n}\r\n\r\n.form-box .form-input input::placeholder{\r\n    padding-left: 0px;\r\n}\r\n\r\n.form-box .form-input input:focus,\r\n.form-box .form-input input:valid{\r\n    border-bottom: 2px solid #48403d;\r\n}\r\n\r\n.form-box input[type=\"checkbox\"]:not(:checked) + label:before{\r\n    background: transparent;\r\n    border: 2px solid #fff;\r\n    width: 15px;\r\n    height: 15px;\r\n}\r\n\r\n.form-box .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{\r\n    background-color: #48403d;\r\n    border: 0px;\r\n}\r\n\r\n.forget-link, .register-link, .login-link{\r\n    color: #fff;\r\n    font-weight: bold;\r\n}\r\n\r\n.forget-link:hover, .register-link:hover, .login-link:hover{\r\n    color: #292525;\r\n}\r\n\r\n.form-box button[type=\"submit\"]{\r\n    border: none;\r\n    cursor: pointer;\r\n    width: 150px;\r\n    height: 40px;\r\n    border-right: 5px;\r\n    background-color: #fff;\r\n    color: #000;\r\n    font-weight: bold;\r\n    transition: 0.5s;\r\n}\r\n\r\n.form-box button[type=\"submit\"]:hover{\r\n    box-shadow: 0px 9px 10px -2px rgba(0,0,0,0.55);\r\n    -webkit-box-shadow: 0px 9px 10px -2px rgba(0,0,0,0.55);\r\n    -moz-box-shadow: 0px 9px 10px -2px rgba(0,0,0,0.55);\r\n}\r\n\r\n.form-box .btn-social{\r\n    color: #fff;\r\n    border: 0px;\r\n    display: inline-block;\r\n    margin: 0px;\r\n    margin-right: 10px;\r\n    font-weight: bold;\r\n    margin-bottom: 10px;\r\n}\r\n\r\n.form-box .btn-facebook{\r\n    background: #4866a8;\r\n}\r\n\r\n.form-box .btn-google{\r\n    background: #da3f34;\r\n}\r\n\r\n.form-box .btn-twitter{\r\n    background: #33ccff;\r\n}\r\n\r\n.form-box .btn-facebook:hover{\r\n    background: #3d5785;\r\n    color: #fff;\r\n}\r\n\r\n.form-box .btn-google:hover{\r\n    background: #bf3b31;\r\n    color: #fff;\r\n}\r\n\r\n.form-box .btn-twitter:hover{\r\n    background: #2eb7e5;\r\n    color: #fff;\r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".image-container {\r\n    background: url(\"https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFwcHklMjBtYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80\") center no-repeat;\r\n    background-size: cover;\r\n    height: 100vh;\r\n}\r\n\r\n.form-container {\r\n    background-color: #fccc00;\r\n    display: flex;\r\n    justify-content: center;\r\n}\r\n.vi-primary {\r\n    fill: #ffffff;\r\n    font-size: 24px;\r\n}\r\n\r\n.vi-primary,\r\n.vi-accent {\r\n    fill-rule: evenodd;\r\n}\r\n\r\n.vi-accent {\r\n    fill: #ffb400;\r\n}\r\n.form-box {\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    min-height: 100vh;\r\n}\r\n\r\n.form-box h4 {\r\n    font-weight: bold;\r\n    color: #fff;\r\n}\r\n\r\n.form-box .form-input {\r\n    position: relative;\r\n}\r\n\r\n.form-box .form-input input {\r\n    width: 100%;\r\n    height: 40px;\r\n    margin-bottom: 20px;\r\n    border: none;\r\n    border-radius: 5px;\r\n    outline: none;\r\n    background: white;\r\n    padding-left: 45px;\r\n}\r\n\r\n.form-box .form-input span {\r\n    position: absolute;\r\n    top: 8px;\r\n    padding-left: 20px;\r\n    color: #777;\r\n}\r\n\r\n.form-box .form-input input::placeholder {\r\n    padding-left: 0px;\r\n}\r\n\r\n.form-box .form-input input:focus,\r\n.form-box .form-input input:valid {\r\n    border-bottom: 2px solid #48403d;\r\n}\r\n\r\n.form-box input[type=\"checkbox\"]:not(:checked) + label:before {\r\n    background: transparent;\r\n    border: 2px solid #fff;\r\n    width: 15px;\r\n    height: 15px;\r\n}\r\n\r\n.form-box\r\n    .custom-checkbox\r\n    .custom-control-input:checked\r\n    ~ .custom-control-label::before {\r\n    background-color: #48403d;\r\n    border: 0px;\r\n}\r\n\r\n.forget-link,\r\n.register-link,\r\n.login-link {\r\n    color: #fff;\r\n    font-weight: bold;\r\n}\r\n\r\n.forget-link:hover,\r\n.register-link:hover,\r\n.login-link:hover {\r\n    color: #292525;\r\n}\r\n\r\n.form-box button[type=\"submit\"] {\r\n    border: none;\r\n    cursor: pointer;\r\n    width: 150px;\r\n    height: 40px;\r\n    border-right: 5px;\r\n    background-color: #fff;\r\n    color: #000;\r\n    font-weight: bold;\r\n    transition: 0.5s;\r\n}\r\n\r\n.form-box button[type=\"submit\"]:hover {\r\n    box-shadow: 0px 9px 10px -2px rgba(0, 0, 0, 0.55);\r\n    -webkit-box-shadow: 0px 9px 10px -2px rgba(0, 0, 0, 0.55);\r\n    -moz-box-shadow: 0px 9px 10px -2px rgba(0, 0, 0, 0.55);\r\n}\r\n\r\n.form-box .btn-social {\r\n    color: #fff;\r\n    border: 0px;\r\n    display: inline-block;\r\n    margin: 0px;\r\n    margin-right: 10px;\r\n    font-weight: bold;\r\n    margin-bottom: 10px;\r\n}\r\n\r\n.form-box .btn-facebook {\r\n    background: #4866a8;\r\n}\r\n\r\n.form-box .btn-google {\r\n    background: #da3f34;\r\n}\r\n\r\n.form-box .btn-twitter {\r\n    background: #33ccff;\r\n}\r\n\r\n.form-box .btn-facebook:hover {\r\n    background: #3d5785;\r\n    color: #fff;\r\n}\r\n\r\n.form-box .btn-google:hover {\r\n    background: #bf3b31;\r\n    color: #fff;\r\n}\r\n\r\n.form-box .btn-twitter:hover {\r\n    background: #2eb7e5;\r\n    color: #fff;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6883,65 +6894,6 @@ module.exports = function (cssWithMappingToString) {
 
   return list;
 };
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
-/*!********************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
-  \********************************************************/
-/***/ ((module) => {
-
-"use strict";
-
-
-module.exports = function (url, options) {
-  if (!options) {
-    // eslint-disable-next-line no-param-reassign
-    options = {};
-  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
-
-
-  url = url && url.__esModule ? url.default : url;
-
-  if (typeof url !== "string") {
-    return url;
-  } // If url is already wrapped in quotes, remove them
-
-
-  if (/^['"].*['"]$/.test(url)) {
-    // eslint-disable-next-line no-param-reassign
-    url = url.slice(1, -1);
-  }
-
-  if (options.hash) {
-    // eslint-disable-next-line no-param-reassign
-    url += options.hash;
-  } // Should url be wrapped?
-  // See https://drafts.csswg.org/css-values-3/#urls
-
-
-  if (/["'() \t\n]/.test(url) || options.needQuotes) {
-    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
-  }
-
-  return url;
-};
-
-/***/ }),
-
-/***/ "./resources/js/pages/imgs/bg.jpg":
-/*!****************************************!*\
-  !*** ./resources/js/pages/imgs/bg.jpg ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/bg.jpg?191ee80d5cdf4d469d718691b0c66f71");
 
 /***/ }),
 
@@ -38675,150 +38627,160 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_vm._m(0), _vm._v(" "), _c("funbuttons")], 1)
+  return _c(
+    "div",
+    [
+      _c("div", { staticClass: "container-fluid" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", {
+            staticClass: "col-lg-6 col-md-6 d-none d-md-block image-container"
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-6 col-md-6 form-container" }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "col-lg-8 col-md-12 col-sm-9 col-xs-12 form-box text-center"
+              },
+              [
+                _c("div", { staticClass: "logo mb-3" }, [
+                  _c(
+                    "svg",
+                    {
+                      attrs: {
+                        id: "cart",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        width: "48",
+                        height: "48",
+                        viewBox: "0 0 48 48"
+                      }
+                    },
+                    [
+                      _c("defs"),
+                      _vm._v(" "),
+                      _c("path", {
+                        staticClass: "vi-primary",
+                        attrs: {
+                          d:
+                            "M14.58,35.043a3.479,3.479,0,1,1-3.527,3.479A3.5,3.5,0,0,1,14.58,35.043Zm11.771,0a3.479,3.479,0,1,1-3.542,3.479A3.511,3.511,0,0,1,26.351,35.043ZM44,12H14L9,6H4L18,26H30l-2,3H13L9,33H30Z"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("path", {
+                        staticClass: "vi-accent",
+                        attrs: { d: "M16,16H36l-2,2H18Zm3,4H32l-2,2H21Z" }
+                      })
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _vm._m(0),
+                _vm._v(" "),
+                _vm._m(1)
+              ]
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("funbuttons")
+    ],
+    1
+  )
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container-fluid" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", {
-          staticClass: "col-lg-6 col-md-6 d-none d-md-block image-container"
-        }),
+    return _c("div", { staticClass: "heading mb-4" }, [
+      _c("h4", [_vm._v("Create an account")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("form", [
+      _c("div", { staticClass: "form-input" }, [
+        _c("span", [_c("i", { staticClass: "fa fa-user" })]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-lg-6 col-md-6 form-container" }, [
-          _c(
-            "div",
-            {
-              staticClass:
-                "col-lg-8 col-md-12 col-sm-9 col-xs-12 form-box text-center"
-            },
-            [
-              _c("div", { staticClass: "logo mb-3" }),
-              _vm._v(" "),
-              _c("div", { staticClass: "heading mb-4" }, [
-                _c("h4", [_vm._v("Create an account")])
-              ]),
-              _vm._v(" "),
-              _c("form", [
-                _c("div", { staticClass: "form-input" }, [
-                  _c("span", [_c("i", { staticClass: "fa fa-user" })]),
-                  _vm._v(" "),
-                  _c("input", {
-                    attrs: {
-                      type: "text",
-                      placeholder: "Full Name",
-                      required: ""
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-input" }, [
-                  _c("span", [_c("i", { staticClass: "fa fa-envelope" })]),
-                  _vm._v(" "),
-                  _c("input", {
-                    attrs: {
-                      type: "email",
-                      placeholder: "Email Address",
-                      required: ""
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-input" }, [
-                  _c("span", [_c("i", { staticClass: "fa fa-lock" })]),
-                  _vm._v(" "),
-                  _c("input", {
-                    attrs: {
-                      type: "password",
-                      placeholder: "Password",
-                      required: ""
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "row mb-3" }, [
-                  _c("div", { staticClass: "col-12 d-flex" }, [
-                    _c(
-                      "div",
-                      { staticClass: "custom-control custom-checkbox" },
-                      [
-                        _c("input", {
-                          staticClass: "custom-control-input",
-                          attrs: { type: "checkbox", id: "cb1" }
-                        }),
-                        _vm._v(" "),
-                        _c(
-                          "label",
-                          {
-                            staticClass: "custom-control-label text-white",
-                            attrs: { for: "cb1" }
-                          },
-                          [_vm._v("I agree all terms & conditions")]
-                        )
-                      ]
-                    )
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "text-left mb-3" }, [
-                  _c(
-                    "button",
-                    { staticClass: "btn", attrs: { type: "submit" } },
-                    [_vm._v("Register")]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "text-center mb-2" }, [
-                  _c(
-                    "div",
-                    { staticClass: "mb-3", staticStyle: { color: "#777" } },
-                    [_vm._v("or register with")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "btn btn-social btn-facebook",
-                      attrs: { href: "" }
-                    },
-                    [_vm._v("facebook")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "btn btn-social btn-google",
-                      attrs: { href: "" }
-                    },
-                    [_vm._v("google")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "btn btn-social btn-twitter",
-                      attrs: { href: "" }
-                    },
-                    [_vm._v("twitter")]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticStyle: { color: "#777" } }, [
-                  _vm._v(
-                    "\n              Already have an account\n              "
-                  ),
-                  _c(
-                    "a",
-                    { staticClass: "login-link", attrs: { href: "login" } },
-                    [_vm._v("Login here")]
-                  )
-                ])
-              ])
-            ]
-          )
+        _c("input", {
+          attrs: { type: "text", placeholder: "Full Name", required: "" }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-input" }, [
+        _c("span", [_c("i", { staticClass: "fa fa-envelope" })]),
+        _vm._v(" "),
+        _c("input", {
+          attrs: { type: "email", placeholder: "Email Address", required: "" }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-input" }, [
+        _c("span", [_c("i", { staticClass: "fa fa-lock" })]),
+        _vm._v(" "),
+        _c("input", {
+          attrs: { type: "password", placeholder: "Password", required: "" }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row mb-3" }, [
+        _c("div", { staticClass: "col-12 d-flex" }, [
+          _c("div", { staticClass: "custom-control custom-checkbox" }, [
+            _c("input", {
+              staticClass: "custom-control-input",
+              attrs: { type: "checkbox", id: "cb1" }
+            }),
+            _vm._v(" "),
+            _c(
+              "label",
+              {
+                staticClass: "custom-control-label text-white",
+                attrs: { for: "cb1" }
+              },
+              [_vm._v("I agree all terms & conditions")]
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "text-left mb-3" }, [
+        _c("button", { staticClass: "btn", attrs: { type: "submit" } }, [
+          _vm._v("Register")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "text-center mb-2" }, [
+        _c("div", { staticClass: "mb-3", staticStyle: { color: "#777" } }, [
+          _vm._v("or register with")
+        ]),
+        _vm._v(" "),
+        _c(
+          "a",
+          { staticClass: "btn btn-social btn-facebook", attrs: { href: "" } },
+          [_vm._v("facebook")]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          { staticClass: "btn btn-social btn-google", attrs: { href: "" } },
+          [_vm._v("google")]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          { staticClass: "btn btn-social btn-twitter", attrs: { href: "" } },
+          [_vm._v("twitter")]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticStyle: { color: "#777" } }, [
+        _vm._v("\n              Already have an account\n              "),
+        _c("a", { staticClass: "login-link", attrs: { href: "login" } }, [
+          _vm._v("Login here")
         ])
       ])
     ])
