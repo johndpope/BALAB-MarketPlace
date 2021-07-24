@@ -11,13 +11,12 @@ import Vue from "vue";
 const routes = [
     { path: "/", component: Heading },
     { path: "/register", component: Register },
-    { path: "balab/login", component: Login }
+    { path: "/login", component: Login } 
 ];
 const router = new VueRouter({
     mode: 'history',
     routes // short for `routes: routes`
 });
-
 Vue.use(VueRouter);
 const app = new Vue({
     el: "#app",

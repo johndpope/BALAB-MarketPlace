@@ -1877,88 +1877,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
@@ -2046,10 +1964,28 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
-    name: 'Login',
+    name: "Login",
     funbuttons: _components_Buttons_vue__WEBPACK_IMPORTED_MODULE_0__.default
   }
 });
@@ -2068,6 +2004,30 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _components_Buttons_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Buttons.vue */ "./resources/js/components/Buttons.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2172,7 +2132,7 @@ var routes = [{
   path: "/register",
   component: _pages_Register_vue__WEBPACK_IMPORTED_MODULE_1__.default
 }, {
-  path: "balab/login",
+  path: "/login",
   component: _pages_Login_vue__WEBPACK_IMPORTED_MODULE_2__.default
 }];
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_3__.default({
@@ -38638,6 +38598,47 @@ var render = function() {
   return _c(
     "div",
     [
+      _c("h1", [_vm._v("This is Home Page")]),
+      _vm._v(" "),
+      _c("router-link", { attrs: { to: "/login" } }, [_vm._v("go to login")]),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("router-link", { attrs: { to: "/register" } }, [
+        _vm._v("go to register")
+      ]),
+      _vm._v(" "),
+      _c("funbuttons")
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Login.vue?vue&type=template&id=3b6adb30&":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Login.vue?vue&type=template&id=3b6adb30& ***!
+  \************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
       _c("div", { staticClass: "container-fluid" }, [
         _c("div", { staticClass: "row" }, [
           _c("div", {
@@ -38685,7 +38686,36 @@ var render = function() {
                 _vm._v(" "),
                 _vm._m(0),
                 _vm._v(" "),
-                _vm._m(1)
+                _c("form", [
+                  _vm._m(1),
+                  _vm._v(" "),
+                  _vm._m(2),
+                  _vm._v(" "),
+                  _vm._m(3),
+                  _vm._v(" "),
+                  _vm._m(4),
+                  _vm._v(" "),
+                  _vm._m(5),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticStyle: { color: "#777" } },
+                    [
+                      _vm._v(
+                        "\n              Don't have an account\n              "
+                      ),
+                      _c(
+                        "router-link",
+                        {
+                          staticClass: "register-link",
+                          attrs: { to: "register" }
+                        },
+                        [_vm._v("Register here")]
+                      )
+                    ],
+                    1
+                  )
+                ])
               ]
             )
           ])
@@ -38703,285 +38733,101 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "heading mb-4" }, [
-      _c("h4", [_vm._v("Create an account")])
+      _c("h4", [_vm._v("Login into your account")])
     ])
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("form", [
-      _c("div", { staticClass: "form-input" }, [
-        _c("span", [_c("i", { staticClass: "fa fa-user" })]),
-        _vm._v(" "),
-        _c("input", {
-          attrs: { type: "text", placeholder: "FullName", required: "" }
-        })
-      ]),
+    return _c("div", { staticClass: "form-input" }, [
+      _c("span", [_c("i", { staticClass: "fa fa-envelope" })]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-input" }, [
-        _c("span", [_c("i", { staticClass: "fa fa-user" })]),
-        _vm._v(" "),
-        _c("input", {
-          attrs: { type: "text", placeholder: "NickName", required: "" }
-        })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "form-input" }, [
-        _c("span", [_c("i", { staticClass: "fa fa-envelope" })]),
-        _vm._v(" "),
-        _c("input", {
-          attrs: { type: "number", placeholder: "Age", required: "" }
-        })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "form-input" }, [
-        _c("span", [_c("i", { staticClass: "fa fa-envelope" })]),
-        _vm._v(" "),
-        _c("input", {
-          attrs: { type: "email", placeholder: "Email Address", required: "" }
-        })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "form-input" }, [
-        _c("span", [_c("i", { staticClass: "fa fa-lock" })]),
-        _vm._v(" "),
-        _c("input", {
-          attrs: { type: "password", placeholder: "Password", required: "" }
-        })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "row mb-3" }, [
-        _c("div", { staticClass: "col-12 d-flex" }, [
-          _c("div", { staticClass: "custom-control custom-checkbox" }, [
-            _c("input", {
-              staticClass: "custom-control-input",
-              attrs: { type: "checkbox", id: "cb1" }
-            }),
-            _vm._v(" "),
-            _c(
-              "label",
-              {
-                staticClass: "custom-control-label text-white",
-                attrs: { for: "cb1" }
-              },
-              [_vm._v("I agree all terms & conditions")]
-            )
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "text-left mb-3" }, [
-        _c("button", { staticClass: "btn", attrs: { type: "submit" } }, [
-          _vm._v("Register")
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "text-center mb-2" }, [
-        _c("div", { staticClass: "mb-3", staticStyle: { color: "#777" } }, [
-          _vm._v("or register with")
-        ]),
-        _vm._v(" "),
-        _c(
-          "a",
-          { staticClass: "btn btn-social btn-facebook", attrs: { href: "" } },
-          [_vm._v("facebook")]
-        ),
-        _vm._v(" "),
-        _c(
-          "a",
-          { staticClass: "btn btn-social btn-google", attrs: { href: "" } },
-          [_vm._v("google")]
-        ),
-        _vm._v(" "),
-        _c(
-          "a",
-          { staticClass: "btn btn-social btn-twitter", attrs: { href: "" } },
-          [_vm._v("twitter")]
-        )
-      ]),
-      _vm._v(" "),
-      _c("div", { staticStyle: { color: "#777" } }, [
-        _vm._v("\n              Already have an account\n              "),
-        _c("a", { staticClass: "login-link", attrs: { href: "login" } }, [
-          _vm._v("Login here")
-        ])
-      ])
+      _c("input", {
+        attrs: { type: "email", placeholder: "Email Address", required: "" }
+      })
     ])
-  }
-]
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Login.vue?vue&type=template&id=3b6adb30&":
-/*!************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Login.vue?vue&type=template&id=3b6adb30& ***!
-  \************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render),
-/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
-/* harmony export */ });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div", [_vm._m(0), _vm._v(" "), _c("funbuttons")], 1)
-}
-var staticRenderFns = [
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container-fluid" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", {
-          staticClass: "col-lg-6 col-md-6 d-none d-md-block image-container"
-        }),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-lg-6 col-md-6 form-container" }, [
+    return _c("div", { staticClass: "form-input" }, [
+      _c("span", [_c("i", { staticClass: "fa fa-lock" })]),
+      _vm._v(" "),
+      _c("input", {
+        attrs: { type: "password", placeholder: "Password", required: "" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row mb-3" }, [
+      _c("div", { staticClass: "col-6 d-flex" }, [
+        _c("div", { staticClass: "custom-control custom-checkbox" }, [
+          _c("input", {
+            staticClass: "custom-control-input",
+            attrs: { type: "checkbox", id: "cb1" }
+          }),
+          _vm._v(" "),
           _c(
-            "div",
+            "label",
             {
-              staticClass:
-                "col-lg-8 col-md-12 col-sm-9 col-xs-12 form-box text-center"
+              staticClass: "custom-control-label text-white",
+              attrs: { for: "cb1" }
             },
-            [
-              _c("div", { staticClass: "logo mb-3" }, [
-                _c("img", { attrs: { src: "image/logo.png", width: "150px" } })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "heading mb-4" }, [
-                _c("h4", [_vm._v("Login into your account")])
-              ]),
-              _vm._v(" "),
-              _c("form", [
-                _c("div", { staticClass: "form-input" }, [
-                  _c("span", [_c("i", { staticClass: "fa fa-envelope" })]),
-                  _vm._v(" "),
-                  _c("input", {
-                    attrs: {
-                      type: "email",
-                      placeholder: "Email Address",
-                      required: ""
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-input" }, [
-                  _c("span", [_c("i", { staticClass: "fa fa-lock" })]),
-                  _vm._v(" "),
-                  _c("input", {
-                    attrs: {
-                      type: "password",
-                      placeholder: "Password",
-                      required: ""
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "row mb-3" }, [
-                  _c("div", { staticClass: "col-6 d-flex" }, [
-                    _c(
-                      "div",
-                      { staticClass: "custom-control custom-checkbox" },
-                      [
-                        _c("input", {
-                          staticClass: "custom-control-input",
-                          attrs: { type: "checkbox", id: "cb1" }
-                        }),
-                        _vm._v(" "),
-                        _c(
-                          "label",
-                          {
-                            staticClass: "custom-control-label text-white",
-                            attrs: { for: "cb1" }
-                          },
-                          [_vm._v("Remember me")]
-                        )
-                      ]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "col-6 text-right" }, [
-                    _c(
-                      "a",
-                      {
-                        staticClass: "forget-link",
-                        attrs: { href: "forget.html" }
-                      },
-                      [_vm._v("Forget Password")]
-                    )
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "text-left mb-3" }, [
-                  _c(
-                    "button",
-                    { staticClass: "btn", attrs: { type: "submit" } },
-                    [_vm._v("Login")]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "text-center mb-2" }, [
-                  _c(
-                    "div",
-                    { staticClass: "mb-3", staticStyle: { color: "#777" } },
-                    [_vm._v("or login with")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "btn btn-social btn-facebook",
-                      attrs: { href: "" }
-                    },
-                    [_vm._v("facebook")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "btn btn-social btn-google",
-                      attrs: { href: "" }
-                    },
-                    [_vm._v("google")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "btn btn-social btn-twitter",
-                      attrs: { href: "" }
-                    },
-                    [_vm._v("twitter")]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticStyle: { color: "#777" } }, [
-                  _vm._v(
-                    "\n              Don't have an account\n              "
-                  ),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "register-link",
-                      attrs: { href: "register.html" }
-                    },
-                    [_vm._v("Register here")]
-                  )
-                ])
-              ])
-            ]
+            [_vm._v("Remember me")]
           )
         ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-6 text-right" }, [
+        _c(
+          "a",
+          { staticClass: "forget-link", attrs: { href: "forget.html" } },
+          [_vm._v("Forget Password")]
+        )
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "text-left mb-3" }, [
+      _c("button", { staticClass: "btn", attrs: { type: "submit" } }, [
+        _vm._v("Login")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "text-center mb-2" }, [
+      _c("div", { staticClass: "mb-3", staticStyle: { color: "#777" } }, [
+        _vm._v("or login with")
+      ]),
+      _vm._v(" "),
+      _c(
+        "a",
+        { staticClass: "btn btn-social btn-facebook", attrs: { href: "" } },
+        [_vm._v("facebook")]
+      ),
+      _vm._v(" "),
+      _c(
+        "a",
+        { staticClass: "btn btn-social btn-google", attrs: { href: "" } },
+        [_vm._v("google")]
+      ),
+      _vm._v(" "),
+      _c(
+        "a",
+        { staticClass: "btn btn-social btn-twitter", attrs: { href: "" } },
+        [_vm._v("twitter")]
+      )
     ])
   }
 ]
@@ -39007,157 +38853,229 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_vm._m(0), _vm._v(" "), _c("funbuttons")], 1)
+  return _c(
+    "div",
+    [
+      _c("div", { staticClass: "container-fluid" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", {
+            staticClass: "col-lg-6 col-md-6 d-none d-md-block image-container"
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-6 col-md-6 form-container" }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "col-lg-8 col-md-12 col-sm-9 col-xs-12 form-box text-center"
+              },
+              [
+                _c("div", { staticClass: "logo mb-3" }, [
+                  _c(
+                    "svg",
+                    {
+                      attrs: {
+                        id: "cart",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        width: "48",
+                        height: "48",
+                        viewBox: "0 0 48 48"
+                      }
+                    },
+                    [
+                      _c("defs"),
+                      _vm._v(" "),
+                      _c("path", {
+                        staticClass: "vi-primary",
+                        attrs: {
+                          d:
+                            "M14.58,35.043a3.479,3.479,0,1,1-3.527,3.479A3.5,3.5,0,0,1,14.58,35.043Zm11.771,0a3.479,3.479,0,1,1-3.542,3.479A3.511,3.511,0,0,1,26.351,35.043ZM44,12H14L9,6H4L18,26H30l-2,3H13L9,33H30Z"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("path", {
+                        staticClass: "vi-accent",
+                        attrs: { d: "M16,16H36l-2,2H18Zm3,4H32l-2,2H21Z" }
+                      })
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _vm._m(0),
+                _vm._v(" "),
+                _c("form", [
+                  _vm._m(1),
+                  _vm._v(" "),
+                  _vm._m(2),
+                  _vm._v(" "),
+                  _vm._m(3),
+                  _vm._v(" "),
+                  _vm._m(4),
+                  _vm._v(" "),
+                  _vm._m(5),
+                  _vm._v(" "),
+                  _vm._m(6),
+                  _vm._v(" "),
+                  _vm._m(7),
+                  _vm._v(" "),
+                  _vm._m(8),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticStyle: { color: "#777" } },
+                    [
+                      _vm._v(
+                        "\n              Already have an account\n              "
+                      ),
+                      _c(
+                        "router-link",
+                        { staticClass: "login-link", attrs: { to: "login" } },
+                        [_vm._v("Login here")]
+                      )
+                    ],
+                    1
+                  )
+                ])
+              ]
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("funbuttons")
+    ],
+    1
+  )
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container-fluid" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", {
-          staticClass: "col-lg-6 col-md-6 d-none d-md-block image-container"
-        }),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-lg-6 col-md-6 form-container" }, [
+    return _c("div", { staticClass: "heading mb-4" }, [
+      _c("h4", [_vm._v("Create an account")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "form-input" }, [
+      _c("span", [_c("i", { staticClass: "fa fa-user" })]),
+      _vm._v(" "),
+      _c("input", {
+        attrs: { type: "text", placeholder: "Full Name", required: "" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "form-input" }, [
+      _c("span", [_c("i", { staticClass: "fa fa-user" })]),
+      _vm._v(" "),
+      _c("input", {
+        attrs: { type: "text", placeholder: "Nick Name", required: "" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "form-input" }, [
+      _c("span", [_c("i", { staticClass: "fa fa-envelope" })]),
+      _vm._v(" "),
+      _c("input", {
+        attrs: { type: "number", placeholder: "Age", required: "" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "form-input" }, [
+      _c("span", [_c("i", { staticClass: "fa fa-envelope" })]),
+      _vm._v(" "),
+      _c("input", {
+        attrs: { type: "email", placeholder: "Email Address", required: "" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "form-input" }, [
+      _c("span", [_c("i", { staticClass: "fa fa-lock" })]),
+      _vm._v(" "),
+      _c("input", {
+        attrs: { type: "password", placeholder: "Password", required: "" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row mb-3" }, [
+      _c("div", { staticClass: "col-12 d-flex" }, [
+        _c("div", { staticClass: "custom-control custom-checkbox" }, [
+          _c("input", {
+            staticClass: "custom-control-input",
+            attrs: { type: "checkbox", id: "cb1" }
+          }),
+          _vm._v(" "),
           _c(
-            "div",
+            "label",
             {
-              staticClass:
-                "col-lg-8 col-md-12 col-sm-9 col-xs-12 form-box text-center"
+              staticClass: "custom-control-label text-white",
+              attrs: { for: "cb1" }
             },
-            [
-              _c("div", { staticClass: "logo mb-3" }, [
-                _c("img", { attrs: { src: "", width: "150px" } })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "heading mb-4" }, [
-                _c("h4", [_vm._v("Create an account")])
-              ]),
-              _vm._v(" "),
-              _c("form", [
-                _c("div", { staticClass: "form-input" }, [
-                  _c("span", [_c("i", { staticClass: "fa fa-user" })]),
-                  _vm._v(" "),
-                  _c("input", {
-                    attrs: {
-                      type: "text",
-                      placeholder: "Full Name",
-                      required: ""
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-input" }, [
-                  _c("span", [_c("i", { staticClass: "fa fa-envelope" })]),
-                  _vm._v(" "),
-                  _c("input", {
-                    attrs: {
-                      type: "email",
-                      placeholder: "Email Address",
-                      required: ""
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-input" }, [
-                  _c("span", [_c("i", { staticClass: "fa fa-lock" })]),
-                  _vm._v(" "),
-                  _c("input", {
-                    attrs: {
-                      type: "password",
-                      placeholder: "Password",
-                      required: ""
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "row mb-3" }, [
-                  _c("div", { staticClass: "col-12 d-flex" }, [
-                    _c(
-                      "div",
-                      { staticClass: "custom-control custom-checkbox" },
-                      [
-                        _c("input", {
-                          staticClass: "custom-control-input",
-                          attrs: { type: "checkbox", id: "cb1" }
-                        }),
-                        _vm._v(" "),
-                        _c(
-                          "label",
-                          {
-                            staticClass: "custom-control-label text-white",
-                            attrs: { for: "cb1" }
-                          },
-                          [_vm._v("I agree all terms & conditions")]
-                        )
-                      ]
-                    )
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "text-left mb-3" }, [
-                  _c(
-                    "button",
-                    { staticClass: "btn", attrs: { type: "submit" } },
-                    [_vm._v("Register")]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "text-center mb-2" }, [
-                  _c(
-                    "div",
-                    { staticClass: "mb-3", staticStyle: { color: "#777" } },
-                    [_vm._v("or register with")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "btn btn-social btn-facebook",
-                      attrs: { href: "" }
-                    },
-                    [_vm._v("facebook")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "btn btn-social btn-google",
-                      attrs: { href: "" }
-                    },
-                    [_vm._v("google")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "btn btn-social btn-twitter",
-                      attrs: { href: "" }
-                    },
-                    [_vm._v("twitter")]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticStyle: { color: "#777" } }, [
-                  _vm._v(
-                    "\n              Already have an account\n              "
-                  ),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "login-link",
-                      attrs: { href: "login.html" }
-                    },
-                    [_vm._v("Login here")]
-                  )
-                ])
-              ])
-            ]
+            [_vm._v("I agree all terms & conditions")]
           )
         ])
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "text-left mb-3" }, [
+      _c("button", { staticClass: "btn", attrs: { type: "submit" } }, [
+        _vm._v("Register")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "text-center mb-2" }, [
+      _c("div", { staticClass: "mb-3", staticStyle: { color: "#777" } }, [
+        _vm._v("or register with")
+      ]),
+      _vm._v(" "),
+      _c(
+        "a",
+        { staticClass: "btn btn-social btn-facebook", attrs: { href: "" } },
+        [_vm._v("facebook")]
+      ),
+      _vm._v(" "),
+      _c(
+        "a",
+        { staticClass: "btn btn-social btn-google", attrs: { href: "" } },
+        [_vm._v("google")]
+      ),
+      _vm._v(" "),
+      _c(
+        "a",
+        { staticClass: "btn btn-social btn-twitter", attrs: { href: "" } },
+        [_vm._v("twitter")]
+      )
     ])
   }
 ]
