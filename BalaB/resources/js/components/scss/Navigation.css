@@ -1,0 +1,74 @@
+.navbar {
+  font-size: 16px;
+  top: 0;
+  left: 0;
+  -webkit-box-shadow: 0px 1px 25px -5px;
+          box-shadow: 0px 1px 25px -5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding: 0 20px;
+  color: black;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link.active {
+  color: coral;
+}
+
+.navbar i {
+  font-size: 1.3rem;
+  padding: 0 7px;
+  cursor: pointer;
+  font-weight: 700;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+/* Mobile nav  */
+#bar {
+  font-size: 1.5rem;
+  padding: 7px;
+  cursor: pointer;
+  font-weight: 600;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#bar:hover,
+#bar.active {
+  color: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+  body > nav > div > button:hover,
+  body > nav > div > button:focus {
+    background-color: #fb774b;
+  }
+  body > nav > div > button:hover #bar,
+  body > nav > div > button:focus #bar {
+    color: #fff;
+  }
+  #navbarSupportedContent > ul {
+    margin: 1rem;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-align: right;
+  }
+  #navbarSupportedContent > ul > li:nth-child(n) > a {
+    padding: 10px 0;
+  }
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+  outline: none;
+}
+/*# sourceMappingURL=Navigation.css.map */

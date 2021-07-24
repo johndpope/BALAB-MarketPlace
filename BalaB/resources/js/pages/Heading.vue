@@ -1,20 +1,16 @@
 <template>
   <div>
-    <h1>This is Home Page</h1>
-    <router-link to="/login">go to login</router-link>
-    <br>
-    <router-link to="/register">go to register</router-link>
-    <funbuttons />
-  </div>
+<Navigation />
+ </div>
 </template>
 <script>
-import funbuttons from "../components/Buttons.vue";
+import Navigation from "../components/Navigation.vue";
 export default {
   components: {
-    funbuttons,
+    Navigation,
   },
 };
 </script>
 <style>
-@import url("../../css/auth.css");
+@import url("../components/scss/Main.css");
 </style>

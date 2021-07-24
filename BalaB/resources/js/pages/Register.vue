@@ -90,7 +90,7 @@
   </div>
 </template>
 <script>
-import funbuttons from "../components/Buttons.vue";
+import funbuttons from "../components/Navigation.vue";
 export default {
   components: {
     funbuttons,
