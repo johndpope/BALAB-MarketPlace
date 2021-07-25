@@ -1,0 +1,14 @@
+#home {
+    background-image: url("http://127.0.0.1:8000/images/back.jpg?93a4ae126e533b69830ffa166c7f9dfd");
+    width: 100%;
+    height: 98vh;
+    background-size: cover;
+    background-position: top 60px center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    &span {
+        color: coral;
+    }
+}

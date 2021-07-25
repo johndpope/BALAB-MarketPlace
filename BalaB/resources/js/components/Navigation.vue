@@ -2,7 +2,8 @@
   <div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top">
       <div class="container">
-        <img :src="image" alt="logo of balab" />
+        <img :src="image" alt="logo of balab" id="balab_logo" />
+        <h1 style="color: #ffb400"><span style="color: #000">Ba</span>laB</h1>
         <button
           class="navbar-toggler"
           type="button"
@@ -42,17 +43,21 @@
   </div>
 </template>
 <script>
-import image from "./assets/img/logo1.png"
+import image from "./assets/img/logo_balab.png";
 export default {
   name: "Navigation",
-      data: function () {
-        return {
-            image: image
-        }
-    }
+  data: function () {
+    return {
+      image: image,
+    };
+  },
 };
-
 </script>
 <style>
 @import url("scss/Navigation.css");
+@import url("scss/Main.css");
+#balab_logo {
+  width: 4em;
+  height: 4em;
+}
 </style>
