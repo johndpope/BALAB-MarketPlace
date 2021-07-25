@@ -2,7 +2,7 @@
   <div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top">
       <div class="container">
-        <img src="img/logo1.png" alt="" />
+        <img :src="image" alt="logo of balab" />
         <button
           class="navbar-toggler"
           type="button"
@@ -42,9 +42,16 @@
   </div>
 </template>
 <script>
+import image from "./assets/img/logo1.png"
 export default {
   name: "Navigation",
+      data: function () {
+        return {
+            image: image
+        }
+    }
 };
+
 </script>
 <style>
 @import url("scss/Navigation.css");
