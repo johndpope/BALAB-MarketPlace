@@ -1,0 +1,96 @@
+.categories {
+    background-color: #eee;
+    width: 100%;
+  }
+  .categories .wrapper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  .categories-container{
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .categories .wrapper .categories-container {
+    display: flex;
+    gap: 35px;
+  }
+  .categories .wrapper .categories-container .category {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+    transition: 0.5s ease-out;
+  }
+  .categories .wrapper .categories-container .category::before {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffe168a8;
+    position: absolute;
+    z-index: 1;
+  }
+  .categories .wrapper .categories-container .category i {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    z-index: 9;
+  }
+  .categories .wrapper .categories-container .category .category-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+  }
+  .categories .wrapper .categories-container .category .category-body h4 {
+    font-size: 17px;
+    position: absolute;
+    left: 13px;
+    bottom: 50px;
+  }
+  .categories .wrapper .categories-container .category .category-body span {
+    font-size: 14px;
+    position: absolute;
+    bottom: 30px;
+  }
+  .categories .wrapper .categories-container .category:hover {
+    transform: scale(0.9);
+    transition: 0.1s ease-in;
+  }
+  .categories .wrapper .categories-container .category:hover {
+    cursor: pointer;
+  }
+  .categories .wrapper .categories-container .category img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+  }
+  .categories .wrapper .categories-container .category img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+  }
+  

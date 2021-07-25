@@ -93,6 +93,9 @@
 .login-link:hover {
     color: #292525;
 }
+.register:hover{
+    color: #fff;
+}
 
 .form-box button[type="submit"] {
     border: none;
