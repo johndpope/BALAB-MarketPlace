@@ -1,5 +1,10 @@
+$color1: #ffb037;
+$color2: #ffe268;
+$color3: #364547;
+$color4: #2f5d62;
 #home {
-    background-image: url("http://127.0.0.1:8000/images/back.jpg?93a4ae126e533b69830ffa166c7f9dfd");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://themebubble.com/demo/webify/interior-design/wp-content/uploads/sites/56/2019/10/Headlines01_360_190830-1-1-1.jpg");
     width: 100%;
     height: 98vh;
     background-size: cover;
@@ -11,4 +16,24 @@
     &span {
         color: coral;
     }
+}
+.login {
+    position: absolute;
+    top: 16em;
+    left: 13em;
+    background: #f54748;
+    color: #fff;
+}
+.register {
+    position: absolute;
+    top: 32em;
+    right: 17em;
+    background: #f5e6ca;
+    color: #000;
+}
+.h1-bg,
+.h5-bg,
+.span-bg,
+.p-bg {
+    color: #fff;
 }

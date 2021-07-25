@@ -2,8 +2,9 @@
   <div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top">
       <div class="container">
+        <h1>Bal</h1>
         <img :src="image" alt="logo of balab" id="balab_logo" />
-        <h1 style="color: #ffb400"><span style="color: #000">Ba</span>laB</h1>
+        <h1>B</h1>
         <button
           class="navbar-toggler"
           type="button"

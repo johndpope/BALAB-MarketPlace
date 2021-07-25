@@ -1,9 +1,14 @@
-
+$color1:#FFB037;
+$color2:#FFE268;
+$color3:#364547;
+$color4:#2F5D62;
+$white:#666c6d;
 .navbar {
     font-size: 16px;
     top: 0;
     left: 0;
     box-shadow: 0px 1px 25px -5px;
+    background: $color2 !important;
   }
   
   .navbar-light .navbar-nav .nav-link {
@@ -14,7 +19,7 @@
   .navbar-light .navbar-nav .nav-link:hover,
   .navbar i:hover,
   .navbar-light .navbar-nav .nav-link.active {
-    color: coral;
+    color: $white;
   }
   .navbar i {
     font-size: 1.3rem;

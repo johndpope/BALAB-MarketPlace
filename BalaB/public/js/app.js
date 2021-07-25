@@ -1860,6 +1860,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "Header"
 });
@@ -1878,6 +1883,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _assets_img_logo_balab_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/img/logo_balab.png */ "./resources/js/components/assets/img/logo_balab.png");
+//
 //
 //
 //
@@ -6890,7 +6896,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "#home {\n  background-image: url(\"http://127.0.0.1:8000/images/back.jpg?93a4ae126e533b69830ffa166c7f9dfd\");\n  width: 100%;\n  height: 98vh;\n  background-size: cover;\n  background-position: top 60px center;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: start;\n      -ms-flex-align: start;\n          align-items: flex-start;\n}\n\n#homespan {\n  color: coral;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "#home {\n  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(\"https://themebubble.com/demo/webify/interior-design/wp-content/uploads/sites/56/2019/10/Headlines01_360_190830-1-1-1.jpg\");\n  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(\"https://themebubble.com/demo/webify/interior-design/wp-content/uploads/sites/56/2019/10/Headlines01_360_190830-1-1-1.jpg\");\n  width: 100%;\n  height: 98vh;\n  background-size: cover;\n  background-position: top 60px center;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: start;\n      -ms-flex-align: start;\n          align-items: flex-start;\n}\n\n#homespan {\n  color: coral;\n}\n\n.login {\n  position: absolute;\n  top: 16em;\n  left: 13em;\n  background: #f54748;\n  color: #fff;\n}\n\n.register {\n  position: absolute;\n  top: 32em;\n  right: 17em;\n  background: #f5e6ca;\n  color: #000;\n}\n\n.h1-bg,\n.h5-bg,\n.span-bg,\n.p-bg {\n  color: #fff;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6938,7 +6944,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".navbar {\n    font-size: 16px;\n    top: 0;\n    left: 0;\n    -webkit-box-shadow: 0px 1px 25px -5px;\n    box-shadow: 0px 1px 25px -5px;\n}\n\n.navbar-light .navbar-nav .nav-link {\n    padding: 0 20px;\n    color: black;\n    -webkit-transition: 0.3s ease;\n    transition: 0.3s ease;\n}\n\n.navbar-light .navbar-nav .nav-link:hover,\n.navbar i:hover,\n.navbar-light .navbar-nav .nav-link.active {\n    color: coral;\n}\n\n.navbar i {\n    font-size: 1.3rem;\n    padding: 0 7px;\n    cursor: pointer;\n    font-weight: 700;\n    -webkit-transition: 0.3s ease;\n    transition: 0.3s ease;\n}\n\n/* Mobile nav  */\n#bar {\n    font-size: 1.5rem;\n    padding: 7px;\n    cursor: pointer;\n    font-weight: 600;\n    -webkit-transition: 0.3s ease;\n    transition: 0.3s ease;\n}\n\n#bar:hover,\n#bar.active {\n    color: #fff;\n}\n\n@media only screen and (max-width: 991px) {\n    body > nav > div > button:hover,\n    body > nav > div > button:focus {\n        background-color: #fb774b;\n    }\n    body > nav > div > button:hover #bar,\n    body > nav > div > button:focus #bar {\n        color: #fff;\n    }\n    #navbarSupportedContent > ul {\n        margin: 1rem;\n        -webkit-box-pack: end;\n        -ms-flex-pack: end;\n        justify-content: flex-end;\n        -webkit-box-align: end;\n        -ms-flex-align: end;\n        align-items: flex-end;\n        text-align: right;\n    }\n    #navbarSupportedContent > ul > li:nth-child(n) > a {\n        padding: 10px 0;\n    }\n}\n\n.navbar-light .navbar-toggler {\n    border: none;\n    outline: none;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".navbar {\n  font-size: 16px;\n  top: 0;\n  left: 0;\n  -webkit-box-shadow: 0px 1px 25px -5px;\n          box-shadow: 0px 1px 25px -5px;\n  background: #FFE268 !important;\n}\n\n.navbar-light .navbar-nav .nav-link {\n  padding: 0 20px;\n  color: black;\n  -webkit-transition: 0.3s ease;\n  transition: 0.3s ease;\n}\n\n.navbar-light .navbar-nav .nav-link:hover,\n.navbar i:hover,\n.navbar-light .navbar-nav .nav-link.active {\n  color: #666c6d;\n}\n\n.navbar i {\n  font-size: 1.3rem;\n  padding: 0 7px;\n  cursor: pointer;\n  font-weight: 700;\n  -webkit-transition: 0.3s ease;\n  transition: 0.3s ease;\n}\n\n/* Mobile nav  */\n#bar {\n  font-size: 1.5rem;\n  padding: 7px;\n  cursor: pointer;\n  font-weight: 600;\n  -webkit-transition: 0.3s ease;\n  transition: 0.3s ease;\n}\n\n#bar:hover,\n#bar.active {\n  color: #fff;\n}\n\n@media only screen and (max-width: 991px) {\n  body > nav > div > button:hover,\n  body > nav > div > button:focus {\n    background-color: #fb774b;\n  }\n  body > nav > div > button:hover #bar,\n  body > nav > div > button:focus #bar {\n    color: #fff;\n  }\n  #navbarSupportedContent > ul {\n    margin: 1rem;\n    -webkit-box-pack: end;\n        -ms-flex-pack: end;\n            justify-content: flex-end;\n    -webkit-box-align: end;\n        -ms-flex-align: end;\n            align-items: flex-end;\n    text-align: right;\n  }\n  #navbarSupportedContent > ul > li:nth-child(n) > a {\n    padding: 10px 0;\n  }\n}\n\n.navbar-light .navbar-toggler {\n  border: none;\n  outline: none;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -38866,19 +38872,28 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
+      _c("div", { staticClass: "bg-cover" }),
+      _vm._v(" "),
       _c("section", { attrs: { id: "home" } }, [
         _c("div", { staticClass: "container" }, [
-          _c("h5", [_vm._v("NEW ARRAIVALS")]),
+          _c("h5", { staticClass: "h5-bg" }, [_vm._v("NEW ARRAIVALS")]),
           _vm._v(" "),
-          _c("h1", [_c("span", [_vm._v("Best Price")]), _vm._v(" This Year")]),
+          _c("h1", { staticClass: "h1-bg" }, [
+            _c("span", { staticClass: "span-bg" }, [_vm._v("Best Price")]),
+            _vm._v(" This Year\n      ")
+          ]),
           _vm._v(" "),
-          _c("p", [
+          _c("p", { staticClass: "p-bg" }, [
             _vm._v("\n        Shoomatic offers your very comfortable time "),
             _c("br"),
             _vm._v("\n        on walking and exercises .\n      ")
           ]),
           _vm._v(" "),
-          _c("button", [_vm._v("Shop Now")])
+          _c("button", [_vm._v("Shop Now")]),
+          _vm._v(" "),
+          _c("button", { staticClass: "login" }, [_vm._v("Login")]),
+          _vm._v(" "),
+          _c("button", { staticClass: "register" }, [_vm._v("Register")])
         ])
       ])
     ])
@@ -38915,30 +38930,23 @@ var render = function() {
       },
       [
         _c("div", { staticClass: "container" }, [
+          _c("h1", [_vm._v("Bal")]),
+          _vm._v(" "),
           _c("img", {
             attrs: { src: _vm.image, alt: "logo of balab", id: "balab_logo" }
           }),
           _vm._v(" "),
+          _c("h1", [_vm._v("B")]),
+          _vm._v(" "),
           _vm._m(0),
           _vm._v(" "),
-          _vm._m(1),
-          _vm._v(" "),
-          _vm._m(2)
+          _vm._m(1)
         ])
       ]
     )
   ])
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("h1", { staticStyle: { color: "#ffb400" } }, [
-      _c("span", { staticStyle: { color: "#000" } }, [_vm._v("Ba")]),
-      _vm._v("laB")
-    ])
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
