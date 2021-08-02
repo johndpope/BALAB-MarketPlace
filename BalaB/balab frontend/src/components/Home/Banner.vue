@@ -2,7 +2,6 @@
   <div>
     <div
       class="bg-cover bg-no-repeat bg-center py-36"
-      style="background-image: url('../../assets/images/banner-bg.jpg')"
     >
       <div class="container">
         <h1 class="text-6xl text-gray-800 font-medium mb-4 capitalize">
@@ -40,6 +39,14 @@
 </template>
 <script>
 export default {
-    name:"Banner"
+  name: "Banner",
+  data() {
+    return {};
+  },
 };
 </script>
+<style lang="css">
+  .bg-cover {
+    background-image: url('./images/bannerBg.jpg');
+  }
+</style>
