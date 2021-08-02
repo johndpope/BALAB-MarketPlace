@@ -1,6 +1,35 @@
 module.exports = {
     plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  }
+        tailwindcss: {
+            theme: {
+                screens: {
+                    mx: "576px",
+                    md: "768px",
+                    lg: "992px",
+                    xl: "1200px"
+                },
+                container: {
+                    center: true,
+                    padding: "1rem"
+                },
+                extend: {
+                    fontFamily: {
+                        poppins: "'Poppins',sans-serif",
+                        roboto: "'Roboto',sans-serif"
+                    },
+                    colors: {
+                        primary: "#FD3D57"
+                    }
+                },
+                variants: {
+                    extend: {
+                        display: ["group-hover"],
+                        visibility: ["group-hover"]
+                    }
+                }
+            }
+        },
+        autoprefixer: {},
+        darkMode: false // or 'media' or 'class'
+    }
+};

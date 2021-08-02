@@ -1,11 +1,11 @@
 window.Vue = require("vue").default;
 import VueRouter from "vue-router";
-
-import test from "./pages/test.vue";
+import '../css/style.css';
+import Home from "./pages/Home.vue";
 
 import Vue from "vue";
 
-const routes = [{ path: "/", component: test }];
+const routes = [{ path: "/", component: Home }];
 const router = new VueRouter({
     mode: "history",
     routes // short for `routes: routes`
